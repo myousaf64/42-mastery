@@ -1,0 +1,48 @@
+[submodule "Leaffliction"]
+	path = Leaffliction
+	url = https://github.com/myousaf64/Leaffliction.git
+	branch = main
+[submodule "Learn2Slither"]
+	path = Learn2Slither
+	url = https://github.com/myousaf64/Learn2Slither.git
+	branch = main
+[submodule "computorv2"]
+	path = computorv2
+	url = https://github.com/myousaf64/computorv2.git
+	branch = main
+[submodule "dslr"]
+	path = dslr
+	url = https://github.com/myousaf64/dslr.git
+	branch = main
+[submodule "ft_linear_regression"]
+	path = ft_linear_regression
+	url = https://github.com/myousaf64/ft_linear_regression.git
+	branch = main
+[submodule "matrix"]
+	path = matrix
+	url = https://github.com/myousaf64/matrix.git
+	branch = main
+[submodule "multilayer-perceptron"]
+	path = multilayer-perceptron
+	url = https://github.com/myousaf64/multilayer-perceptron.git
+	branch = main
+[submodule "piscineDataSci"]
+	path = piscineDataSci
+	url = https://github.com/myousaf64/piscineDataSci.git
+	branch = main
+[submodule "py4DataScience-0-Starting"]
+	path = py4DataScience-0-Starting
+	url = https://github.com/myousaf64/py4DataScience-0-Starting.git
+	branch = main
+[submodule "total-perspective-vortex"]
+	path = total-perspective-vortex
+	url = https://github.com/myousaf64/total-perspective-vortex.git
+	branch = main
+[submodule "42_Collaborative_resume"]
+	path = 42_Collaborative_resume
+	url = git@github.com:myousaf64/42_Collaborative_resume.git
+	branch = main
+[submodule "computorv1"]
+	path = computorv1
+	url = git@github.com:myousaf64/computorv1.git
+	branch = main
