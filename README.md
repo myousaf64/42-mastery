@@ -1,7 +1,9 @@
-# 42 Data Science branch
+# 42 mastery
 
-An index of the 42 Abu Dhabi Data Science and Machine Learning projects. Each row
-links to its own repository.
+The 42 Abu Dhabi Data Science and Machine Learning branch. Each project lives in
+its own repository and is linked here as a Git submodule.
+
+## Projects
 
 | Project | What it is | Status |
 |---|---|---|
@@ -11,19 +13,35 @@ links to its own repository.
 | [total-perspective-vortex](https://github.com/myousaf64/total-perspective-vortex) | EEG brain-computer interface, Common Spatial Patterns from scratch | Done |
 | [Learn2Slither](https://github.com/myousaf64/Learn2Slither) | Q-learning Snake agent, reaches length ~29 | Done |
 | [matrix](https://github.com/myousaf64/matrix) | Linear algebra from scratch, all 14 exercises | Done |
-| [computorv1](https://github.com/myousaf64/computorv1) | Polynomial equation solver, degree 2 and below | Done |
+| [computorv1](https://github.com/myousaf64/computorv1) | Polynomial equation solver, degree 2 and below (private) | Done |
 | [computorv2](https://github.com/myousaf64/computorv2) | Interactive calculator: rationals, complex, matrices, functions | Core done |
+| [py4DataScience-0-Starting](https://github.com/myousaf64/py4DataScience-0-Starting) | Python piscine, module 00 | Done |
+| [42_Collaborative_resume](https://github.com/myousaf64/42_Collaborative_resume) | Collaborative resume and interview preparation (private) | Done |
 | [Leaffliction](https://github.com/myousaf64/Leaffliction) | Leaf disease image classification | Not started |
 | [piscineDataSci](https://github.com/myousaf64/piscineDataSci) | Data Science piscine work | Not started |
-| [py4DataScience-0-Starting](https://github.com/myousaf64/py4DataScience-0-Starting) | Python piscine, module 00 | Done |
 
 Every project is written without machine learning libraries unless the assignment
 allows one. Each repository carries a `PROGRESS.md` development log alongside its
 README.
 
-## Note
+## Clone
 
-This repository previously held Git submodule links with no `.gitmodules` file, so
-none of them resolved. The dead links are replaced by the table above. One link,
-`42_Collaborative_resume`, pointed at a repository that is no longer reachable and
-has no row here.
+```sh
+git clone --recurse-submodules https://github.com/myousaf64/42-mastery.git
+```
+
+If you already cloned the repository:
+
+```sh
+git submodule update --init --recursive
+```
+
+To move every project to the latest commit on its `main` branch:
+
+```sh
+git submodule update --remote --merge
+```
+
+Two entries, `computorv1` and `42_Collaborative_resume`, are private repositories
+and use SSH URLs. Without access, their submodules stay empty. The other ten clone
+over HTTPS and need no credentials.
