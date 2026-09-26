@@ -21,19 +21,7 @@ its own repository and is linked here as a Git submodule.
 | [piscineDataSci](https://github.com/myousaf64/piscineDataSci) | Data Science piscine work | Not started | - |
 
 Every project is written without machine learning libraries unless the assignment
-allows one. Each repository carries a `PROGRESS.md` development log alongside its
-README.
-
-## Guides
-
-A guide is a single self-contained `GUIDE.html` at the root of the project it
-covers. It explains the subject from first principles, walks through the code in
-that repository, and prepares the oral defense: hidden-answer evaluation
-questions, the traps that fail the review, and a live in-browser playground that
-runs the real algorithm. Open it straight from the file system, no build step and
-no network.
-
-The three projects marked `TODO` above are next.
+allows one.
 
 ## Clone
 
@@ -53,6 +41,6 @@ To move every project to the latest commit on its `main` branch:
 git submodule update --remote --merge
 ```
 
-Two entries, `computorv1` and `42_Collaborative_resume`, are private repositories
-and use SSH URLs. Without access, their submodules stay empty. The other ten clone
+`42_Collaborative_resume`, is a private repository
+and use SSH URLs. Without access, their submodules stay empty. The other repos clone
 over HTTPS and need no credentials.
